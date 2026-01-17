@@ -40,7 +40,7 @@ card.addEventListener('mouseleave', () => {
     card.style.transform = 'rotateX(0) rotateY(0)';
 });
 
-var textToType = 'expansion';
+var textToType = 'rifle';
 var typewriterEl = document.getElementById('typewriter');
 var idx = 0;
 var isDeleting = false;
@@ -123,3 +123,4 @@ function formatTime(seconds) {
     const secs = Math.floor(seconds % 60);
     return mins + ':' + (secs < 10 ? '0' : '') + secs;
 }
+
